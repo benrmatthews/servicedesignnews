@@ -37,6 +37,7 @@ gem "oauth"
 gem "thinking-sphinx", "~> 3.0.6"
 
 gem "mail"
+gem "sphinx"
 
 group :test, :development do
   gem "rspec-rails", "~> 2.6"
