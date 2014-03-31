@@ -38,6 +38,7 @@ gem "thinking-sphinx", "~> 3.0.6"
 
 gem "mail"
 gem "sphinx"
+gem "pg"
 
 group :test, :development do
   gem "rspec-rails", "~> 2.6"
