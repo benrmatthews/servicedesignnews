@@ -1,1 +1,1 @@
-Lobsters::Application.config.secret_token = '88b2ff18a090168f88a9883a26bd6c90c48ed010ba110111c81f95c083ca3486208c3c1e396040e74b4c09673b37e5140cfb9d1ae4bdbe1bad03ea14a127506f '
+Lobsters::Application.config.secret_token = ENV['SECRET_TOKEN']
