@@ -122,7 +122,7 @@ class HomeController < ApplicationController
       render :action => "about"
     rescue
       render :text => "<div class=\"box wide\">" <<
-        "A mystery." <<
+        "Service Design News is brought to you by FutureGov." <<
         "</div>", :layout => "application"
     end
   end
