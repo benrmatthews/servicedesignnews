@@ -51,7 +51,7 @@ end
 # config/initializers/production.rb
 class << Rails.application
   def domain
-    "servicedesignnews.com"
+    "servicedesignnews.herokuapp.com"
   end
 
   def name
